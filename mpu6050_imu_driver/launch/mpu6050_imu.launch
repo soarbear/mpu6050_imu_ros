@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="rosserial_python" type="serial_node.py" name="mpu6050_imu_driver" args=" /dev/ttyACM0" output="screen" />
+	<node pkg="mpu6050_imu_converter" type="mpu6050_imu_converter_node" name="mpu6050_imu_converter" output="screen">
+		<remap from="~/imu" to="/imu/data"/>
+	</node>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find mpu6050_imu_driver)/rviz/mpu6050_imu.rviz"/>
+</launch>
