@@ -1,10 +1,13 @@
 # Introduction
 Arduino code employing rosserial to retrieve a quaternion from the mpu6050 DMP and publish it to ROS. Use the mpu6050_imu_converter package to publish IMU & Pose messages.
+
 Tested on Arduino UNO & asus Tinker board(Raspiberry Pi maybe OK).
 
 # Demo(youtube)
 $catkin_make
+
 $roslaunch mpu6050_imu_driver mpu6050_imu.launch
+
 https://youtu.be/ziUGnZDbtfc
 
 # Explanation
