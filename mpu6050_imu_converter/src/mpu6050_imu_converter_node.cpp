@@ -68,7 +68,7 @@ void quaternionCb(const geometry_msgs::Quaternion::ConstPtr& msg){
 
 int main(int argc, char** argv){
 
-    ros::init(argc, argv, "hector_mpu6050_imu_converter");
+    ros::init(argc, argv, "mpu6050_imu_converter");
 
     ros::NodeHandle _nh;
     ros::NodeHandle _pnh("~");
