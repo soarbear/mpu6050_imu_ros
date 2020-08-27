@@ -20,7 +20,7 @@ The package is tested on Arduino Uno compatible & Asus Tinker board(Raspiberry P
 
 $roslaunch mpu6050_imu_driver mpu6050_imu.launch
 
-video on youtube -> https://youtu.be/ziUGnZDbtfc
+video on youtube -> https://youtu.be/h508BTedKtk
 
 # Explanation
 
