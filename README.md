@@ -30,3 +30,6 @@ video on youtube -> https://youtu.be/h508BTedKtk
 
 <a href="https://github.com/jrowberg/i2cdevlib">jrowberg/i2cdevlib</a>
 
+# Todo
+
+Optimization.
