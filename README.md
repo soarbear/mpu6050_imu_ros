@@ -10,11 +10,11 @@ The package is tested on Arduino Uno compatible & Asus Tinker board(Raspiberry P
 
 ・MPU-6050 GY521
 
-・DFRobot Romeo mini v1.1(or arduino uno compatible)
+・DFRobot Romeo mini v1.1(or arduino uno compatible etc)
 
 ・ROS kinetic(or melodic)
 
-・ubuntu 18.04 Tinker board(or Raspiberry Pi, PC)
+・Ubuntu 18.04 Tinker board(or Raspiberry Pi, PC etc)
 
 # Demo
 
