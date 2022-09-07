@@ -1,6 +1,6 @@
 # mpu6050_imu_ros
 
-Arduino code(mpu6050_imu_driver/firmaware) employing rosserial to retrieve a quaternion from the mpu6050 DMP. 
+Arduino code(mpu6050_imu_driver/firmware) employing rosserial to retrieve a quaternion from the mpu6050 DMP. 
 
 Then, another ROS node(mpu6050_imu_converter) publishing IMU & Pose messages to ROS. 
 
